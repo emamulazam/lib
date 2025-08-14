@@ -1,0 +1,10 @@
+import numpy as np
+arr = np.array([1.1,2.5,3.1])
+print(arr)
+print(arr.dtype)
+int_arr = arr.astype('i')
+print(int_arr)
+print(int_arr.dtype)
+str_arr = arr.astype('S')
+print(str_arr)
+print(str_arr.dtype)
